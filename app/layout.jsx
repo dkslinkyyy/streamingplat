@@ -14,8 +14,7 @@ const RootLayout = ({children}) => {
         <html lang="en">
             <body>
 
-            <main className='w-screen relative z-0 h-screen text-white bg-black'>
-                <PopupCard/>
+            <main className='w-screen relative z-0 h-auto text-white bg-black bg-repeat'>
                 
                     <Nav />
                     {children}

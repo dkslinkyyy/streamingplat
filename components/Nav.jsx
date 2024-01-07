@@ -13,7 +13,7 @@ const Nav = () => {
     return (
         <nav className="flex text-white justify-between items-center w-full mb-8 py-8 px-8">
             <Link href="/" className='flex gap-2 flex-center'>
-                <p className='font-semibold text-ital'>Streamingplat</p>
+                <p className='font-semibold '>Streamingplat</p>
            </Link>
             <div className='sm:flex hidden'>
                 {isUserLoggedIn ? (
